@@ -14,7 +14,7 @@ Users can enter a text prompt, submit it to the Gemini model, and view the gener
 
 It focuses on the basic workflow of prompt input, model invocation, response generation, and error handling.
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - Build a simple user interface for interacting with a generative AI model.
 - Understand how text prompts are passed to an LLM.
@@ -23,7 +23,7 @@ It focuses on the basic workflow of prompt input, model invocation, response gen
 - Display generated responses through Streamlit.
 - Handle missing prompts, missing API keys, and model errors.
 
-## ⚙️ How It Works
+## How It Works
 
 The application follows a straightforward workflow:
 
@@ -35,7 +35,7 @@ The application follows a straightforward workflow:
 6. **Display the Output:** Show the generated text in the Streamlit interface.
 7. **Handle Errors:** Display appropriate messages when the API key is missing or a model request fails.
 
-## 🧠 Key Concepts
+## Key Concepts
 
 ### 1. Prompt Engineering
 
@@ -57,7 +57,7 @@ Streamlit makes it possible to create an interactive web interface using Python 
 
 The Google API key is loaded from an environment variable rather than being written directly into the source code.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Language:** Python
 - **Web Interface:** Streamlit
@@ -65,7 +65,7 @@ The Google API key is loaded from an environment variable rather than being writ
 - **API Integration:** Google Generative AI Python SDK
 - **Configuration:** python-dotenv
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -113,7 +113,7 @@ streamlit run 1_static_prompt_ui.py
 3. Click **Generate**.
 4. Read the response displayed in the results section.
 
-## 💡 Example Use Cases
+## Example Use Cases
 
 - Asking general research questions.
 - Summarizing short passages of text.
@@ -123,7 +123,7 @@ streamlit run 1_static_prompt_ui.py
 
 These are potential uses of the prompt interface, not separate features currently implemented in the application.
 
-## 📚 Learning Outcomes
+## Learning Outcomes
 
 This project helps develop an understanding of:
 
@@ -134,7 +134,7 @@ This project helps develop an understanding of:
 - Text generation workflows.
 - Basic exception handling in generative AI applications.
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Add reusable prompt templates for summarization, translation, and code review.
 - Support system instructions and configurable generation settings.
@@ -145,11 +145,11 @@ This project helps develop an understanding of:
 - Extend the application into a multi-model prompt interface.
 - Migrate to a currently supported Google Gen AI SDK and model configuration.
 
-## ⚠️ Implementation Notes
+## Implementation Notes
 
 The application currently demonstrates a basic, single-prompt interaction rather than a complete conversational agent. API compatibility depends on the installed SDK version and the availability of the configured Gemini model. Check the current Google Gen AI documentation if you encounter model or endpoint errors.
 
-## ✅ Conclusion
+## Conclusion
 
 Static Prompt UI is a starting point for exploring how generative AI can be integrated into a Python web application. By connecting a Streamlit interface to Gemini, the project demonstrates the core workflow of accepting prompts, generating responses, and presenting LLM output to users.
 
